@@ -18,9 +18,9 @@ CREATE TABLE `Groups` (
 -- Records of Groups
 -- ----------------------------
 BEGIN;
-INSERT INTO `Groups` VALUES (1, 'intella', 'a1.intella.co');
-INSERT INTO `Groups` VALUES (2, 'intella 潮', 'a2.intella.co');
-INSERT INTO `Groups` VALUES (3, 'intella 信', 'a3.intella.co');
+INSERT INTO `Groups` VALUES (1, 'rh1', 'a1.rh.co');
+INSERT INTO `Groups` VALUES (2, 'rh2', 'a2.rh.co');
+INSERT INTO `Groups` VALUES (3, 'rh3', 'a3.rh.co');
 COMMIT;
 
 SET FOREIGN_KEY_CHECKS = 1;
